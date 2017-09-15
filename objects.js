@@ -3,12 +3,13 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, updatePlaylist) {
-  playlist.artistName = "";
-  playlist.songTitle = "";
+  playlist.artistName = "Phil Ochs";
+  playlist.songTitle = "Here's to the State of Mississippi";
   return Object.assign({}, playlist, updatePlaylist)
 }
 
 function removeFromPlaylist(playlist, removeFromPlaylist) {
-  delete playlist.artistName;
+  playlist.artistName = "Kanye";
+  playlist.songTitle = "Gold Digger";
   return Object.assign({}, playlist, removeFromPlaylist)
 }
