@@ -11,4 +11,3 @@ function updatePlaylist(playlist, updatePlaylist) {
 function removeFromPlaylist(playlist, removeFromPlaylist) {
   return Object.assign({}, playlist, removeFromPlaylist)
 }
-
