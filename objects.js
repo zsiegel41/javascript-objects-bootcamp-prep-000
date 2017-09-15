@@ -3,3 +3,7 @@ var playlist = {
   artistName,
   songTitle
 };
+
+var updatePlaylist = {}
+
+var removeFromPlaylist = {}
