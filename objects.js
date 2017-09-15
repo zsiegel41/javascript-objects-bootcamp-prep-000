@@ -1,11 +1,11 @@
 var playlist = {
-  playlist
+  artistName: songTitle
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist.artistName = "Phil Ochs";
   playlist.songTitle = "Here's to the State of Mississippi"
-  return Object.assign({}(artistName, songTitle), playlist, updatePlaylist)
+  return Object.assign({}, playlist, updatePlaylist)
 }
 
 function removeFromPlaylist(playlist, removeFromPlaylist) {
